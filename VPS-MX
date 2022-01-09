@@ -7,7 +7,7 @@ rm $(pwd)/$0 &> /dev/null
 #------- COLORES Y BARRA 
 if [ `whoami` != 'root' ] 
    then 
-     echo -e "Debes ser root para ejecutar el Instalador" 
+     echo -e "Debes ser Root para ejecutar el Instalador" 
      exit 
 fi
 
@@ -25,7 +25,7 @@ AZUL='\e[34m' && MAGENTA='\e[35m' && MAG='\033[1;36m' &&NEGRITO='\e[1m' && SEMCO
  esac
 }
 
-#------- BARRA DE ESPERA
+#------- BARRA DE ESPERA si
 
 fun_bar () {
 comando="$1"
